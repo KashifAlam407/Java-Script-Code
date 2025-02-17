@@ -1,0 +1,18 @@
+Instance Properties  ----  Description
+
+constructor	--- It is used to return the constructor function of Map.
+size ---	Return the number of keys, and value pairs stored in a map.
+
+
+--------------------------------------------
+Static Methods --- Description
+
+clear( ) ---	Removal of all the elements from a map and making it empty.
+delete() ---	Delete the specified element among all the elements which are present in the map.
+entries( ) ---	Returning an iterator object which contains all the [key, value] pairs of each element of the map.
+forEach() ---	The map with the given function executes the given function over each key-value pair.
+get( ) ---	Returning a specific element among all the elements which are present in a map.
+has( ) ---	Check whether an element with a specified key exists in a map or not.
+keys() ---	The keys from a given map object return the iterator object of keys.
+set() ---	Add key-value pairs to a Map object.
+values() ---	Return a new Iterator object that contains the value of each element present in the Map.

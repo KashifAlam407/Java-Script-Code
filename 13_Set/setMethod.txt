@@ -1,0 +1,19 @@
+Methods of Set in JavaScript
+
+Set.add() --- adds the new element with a specified value at the end of the Set object.
+
+Set.delete() --- deletes an element with the specified value from the Set object. 
+
+Set.clear() --- removes all the element from the set. 
+
+Set.entries() --- returns an iterator object which contains an array having the entries of the set, in the insertion order. 
+
+Set.has() --- returns true if the specified value is present in the Set object. 
+
+Set.values() --- returns all the values from the Set in the same insertion order.
+
+Set.keys() --- also returns all the values from the Set in the insertion order. 
+
+Set.forEach() --- executes the given function once for every element in the Set, in the insertion order.
+
+Set.prototype[@@iterator]() --- returns a Set iterator function which is values() function by default. 
