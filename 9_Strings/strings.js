@@ -32,7 +32,7 @@ console.log(str3);
 console.log(str4);
 
 
-// Multiline String
+// Multiline string (using backtick)
 let s = `
 This is a 
 multiline
@@ -79,12 +79,12 @@ console.log(st1.localeCompare(st2));
 
 // --------------------------------
 // Passing JavaScript String as Objects
-const strn1 = new String("Md Kashif Alam");
+const strn1 = new String("Md Kashif Alam");   // here strn1 is an object
 const strn2 = "Md Kashif Alam";
 
 console.log(strn1);
 console.log(strn2);
 
-console.log(strn1 == strn2);
-console.log(strn1 === strn2); // 'False' since the string created by the new keyword is an object and is not the same as normal strings.
+console.log(strn1 == strn2);  // 'True' since it checks only value
+console.log(strn1 === strn2); // 'False' (Type checking) since the string created by the new keyword is an object and is not the same as normal strings.
 
