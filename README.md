@@ -23,12 +23,16 @@ Java-Script-Code/
 ├── 2_Operators
 ├── 3_Statements
 ├── 4_Loops
+├── 5_Functions
 ├── 6_Object
-├── 7_Functions
-├── 8_Arrays
-├── 9_Strings
+├── 7_Arrays
+├── 8_Strings
+├── 9_Date & Time
+├── 10_Math Object
+├── 11_Number
 ├── 12_Map
 ├── 13_Set
+├── 14_DOM (Coming Soon)
 ├── Extra_Notes/
 └── README.md
 ```
